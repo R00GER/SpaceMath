@@ -1,0 +1,158 @@
+/* Web-projekti kevät 2019, OAMK
+
+ OMAT TYYLIT
+
+ Tekijä: Ronny Friman
+
+ Projektiryhmä: 4F */
+
+/*Matikkaohjeet -sivun ohjeteksti*/
+#ohjeet {
+  padding-top: 5px;
+  padding-bottom: 20px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/*Matikkaohjeet -sivun kuvan container*/
+#pic-container {
+  position: relative;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Matikkaohjeet -sivun kuva*/
+#pic-container img {
+  width: 100%;
+  height: auto;
+}
+
+#img {
+  border-radius: 5px;
+  opacity: 0.9;
+  filter: alpha(opacity=50);
+}
+
+/*Matikkaohjeet -sivun painike*/
+#button {
+  opacity: 0.9;
+  filter: alpha(opacity=50);
+  position: absolute;
+  top: 38%;
+  left: 35%;
+}
+
+/*Matikkapelin canvasin container*/
+#canvas-container {
+  width: 744px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/*Matikkapelin canvas: läpinäkyvyys, reunan pyöristys*/
+canvas {
+  opacity: 0.9;
+  filter: alpha(opacity=50);
+  border-radius: 10px;
+}
+
+/*Tietovisan class, kursorin muuttaminen*/
+.klikkaa {
+  cursor: pointer;
+}
+
+/*Tietovisan class, taustaväri vihreä, fontin väri valkoinen*/
+.oikein {
+  background-color: green;
+  color: white;
+}
+
+/*Tietovisan class, taustaväri punainen, fontin väri valkoinen*/
+.vaarin {
+  background-color: #ff3333;
+  color: white;
+}
+
+
+/*Tietovisan class, näkyvissä*/
+.esilla {
+  display: block;
+}
+
+/*Tietovisan class, piilossa*/
+.piilossa {
+  display: none;
+}
+
+.vastaus {
+  width: 100%;
+}
+
+.button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 50px;
+  width: 100px;
+}
+
+.aika {
+  text-align: center;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.progress {
+  width: 100%;
+  height: 24px;
+}
+
+.progress-bar {
+  width: 0%;
+  animation-name: progress;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-duration: 19s;
+}
+
+/*Tietovisan progress-barin animointi, lähtöarvona leveys 0, kun valmis, leveys 100%. 
+Animointi Jqueryn animate -funtiolla olisi helpottanut elämää, mutta jostain syystä
+animointi ei tapahtunut tasaisesti. Animate -funktion etuna olisi ollut mm. se, että
+animoinnin päättyminen voi laukaista eri asioita, jolloin päättymistä ei tarvitse
+itse seurata. Täytyy jatkossa opetella lisää animate -funtiota.*/
+@keyframes progress {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.cardvisa {
+   padding-top: 10px; 
+}
+
+/*Tietovisan alareunan teksti: fontin koko, yläreunan padding*/
+.oppitori {
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+.ohjeteksti {
+  padding-top: 10px;
+}
+
+.aikapisteet {
+  font-size: 200%;
+}
+
+.card-matikkaohjeet {
+ vertical-align: top;
+}
+

@@ -1,0 +1,147 @@
+/* 
+    Created on : 26.3.2019, 18:35:32
+    Author     : Project group 4F
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister');
+
+#homebutton {
+    display: inline-block;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.nav-container {
+    padding-top: 30px;
+    /*max-width: 1200px;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-jenna {
+    background-color: #FFFF66;
+    border-radius: 24px;
+    width: 180px;
+}
+
+.card-jenna {
+    background-color: #FFFF66;
+}
+
+.button-sami {
+    background-color: #FF355E;
+    border-radius: 24px;
+    width: 180px;
+}
+
+.card-sami {
+    background-color: #FF355E;
+}
+
+.button-ronny {
+    background-color: #CCFF00;
+    border-radius: 24px;
+    width: 180px;
+}
+
+.card-ronny {
+    background-color: #CCFF00;
+}
+
+.button-roosa {
+    background-color: #FFCC33;
+    border-radius: 24px;
+    width: 180px;
+}
+
+.card-roosa {
+    background-color: #FFCC33;
+}
+
+
+.button-marja {
+    background-color: #EE34D2;
+    border-radius: 24px;
+    width: 180px;
+}
+
+.card-marja {
+    background-color: #EE34D2;
+}
+
+
+.button-olli {
+    background-color: #884DFF;
+    border-radius: 24px;
+    width: 180px;
+}
+
+.card-olli {
+    background-color: #884DFF;
+}
+
+body {
+    /* Kuvan urli*/
+    background-image: url("https://i.imgur.com/SBnXK5D.png");
+
+    /*skaalaus ja keskitys*/
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*Korkeus*/
+    height: 100%;
+
+}
+
+/* Otsikkoon ylös puolikkaan kirjaimen verran tilaa*/
+
+#otsikko {
+    margin-top: 0.5em;
+    font-size: 64px;
+}
+
+* {
+    font-family: 'Love Ya Like A Sister', cursive;
+    /*font-size: 1.1em;*/
+    /*font-size: 48px;*/
+    /*font-size: 24px;*/
+    /*font-size: 12px;*/
+}
+
+/*header {*/
+
+/*    background-color: rgb(204,255,0,0.2);*/
+
+/*    border-radius: 24px;*/
+
+/*}*/
+
+.container-kuvaukset {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-esittely {
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: white;*/
+}
+
+.kuvaukset {
+    padding-top: 16px;
+    /*width: 100%;*/
+    vertical-align: top;
+    height: 316px;
+}
+
+.esittely {
+    font-size: 24px;
+}
+
+.card-etu {
+    opacity: 0.9;
+}

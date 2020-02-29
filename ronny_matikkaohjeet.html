@@ -1,0 +1,150 @@
+<!--Web-projekti kevät 2019, OAMK
+
+SPACE MATH -matikkapelin ohjeet
+
+Tekijä: Ronny Friman
+
+Projektiryhmä: 4F
+
+
+Tämä sivu ohjaa Space Math -peliin, klikkaamalla "aloita peli" -painiketta
+tein tämän sivun, jotta saan pelisivusta siistimmän ja jotta ohjeet voidaan lukea ennen kuin peli käynnistyy. 
+Seuraavassa pelissä opettelen tekemään canvakselle main menun ja painikkeet-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ronny Friman">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="css/yhteiset_tyylit.css" rel="stylesheet">
+    <link href="css/ronny_tyylit.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <title>Space Math ohjeet</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="row">
+            <div class="col-sm-2">
+                <a href="index.html">
+                <img id="homebutton" src="img/homebutton3.png" alt="Kotisivulle">
+            </a>
+            </div>
+
+            <div class="col-sm-8">
+                <h1 id="otsikko">Hassunhauskoja Visoja</h1>
+            </div>
+        </header>
+
+        <!--navbar alkaa/-->
+        <div class="nav-container">
+
+            <div class="btn-group">
+                <button type="button" class="btn dropdown-toggle button-jenna shadow p-2 mb-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 <i class="fas fa-dog"></i> Mahtavat Metkat
+                  </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="jenna_matikka.html">Yhteenlaskut</a>
+                    <a class="dropdown-item" href="jenna_tietovisa.html">Luontovisa</a>
+                </div>
+            </div>
+
+            <div class="btn-group">
+                <button type="button" class="btn dropdown-toggle button-sami shadow p-2 mb-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-cat"></i> Hupaisan hupsut
+                  </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="sami_matikka.html">Kolmen vaikeustason matikka</a>
+                    <a class="dropdown-item" href="sami_tietovisa.html">Kaupunkivisa</a>
+                </div>
+            </div>
+
+            <div class="btn-group">
+                <button type="button" class="btn dropdown-toggle button-ronny shadow p-2 mb-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-fish"></i> Sulokkaan Somat
+                  </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="ronny_matikkaohjeet.html">Space Math</a>
+                    <a class="dropdown-item" href="ronny_tietovisa.html">Kymmenen kysymystä</a>
+                </div>
+            </div>
+
+            <div class="btn-group">
+                <button type="button" class="btn dropdown-toggle button-roosa shadow p-2 mb-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-horse"></i> Hurjan Hilpeät
+                  </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="roosa_matikka.html">Kertotaulu</a>
+                    <a class="dropdown-item" href="roosa_tietovisa.html">Englanninkieli</a>
+                </div>
+            </div>
+
+            <div class="btn-group">
+                <button type="button" class="btn dropdown-toggle button-marja shadow p-2 mb-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-frog"></i> Kauhean Kivat
+                  </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="marja_matikka.html">Vähennyslaskuja</a>
+                    <a class="dropdown-item" href="marja_tietovisa.html">Historiakysymyksiä</a>
+                </div>
+            </div>
+
+            <div class="btn-group">
+                <button type="button" class="btn dropdown-toggle button-olli shadow p-2 mb-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-spider"></i> Hirveän Hassut
+                  </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="olli_matikka.html">Matikkapeli</a>
+                    <a class="dropdown-item" href="olli_tietovisa.html">Tietovisa</a>
+                </div>
+            </div>
+        </div>
+
+        </nav>
+    </div>
+    <!--navbar loppuu/-->
+
+    <div id="ohjeet" class="row card card-matikkaohjeet border-0 shadow my-1">
+        <div class="col-md-12">
+            <h2>Space Math</h2>
+        </div>
+        <div class="row card-body p-1 col-md-12">
+            <div class="ohjeteksti col-md-6 text-left pl-5">
+                <div>Voit liikuttaa avaruusalusta oikealle tai vasemmalle nuolinäppäimillä. Painamalla nuolinäppäintä alaspäin, voit kiihdyttää tippuvien numeroiden vauhtia.
+                </div>
+                <div class="py-2">Ruudun keskelle muodostuu yhteenlaskutehtävä. Ota kiinni kolmesta putoavasta numerosta yhteenlaskun oikea tulos.
+                </div>
+                <div class="py-2">Sinulla on kolme elämää, jotka vähenevät vääristä vastauksista. Peli loppuu, kun elämiä ei ole enää käytössä. Pisteet kertyvät oikeista vastauksista sekä nopeudesta. Lopuksi saat palautteen suorituksestasi!
+                </div>
+            </div>
+            <div id="pic-container" class="col-md-6 py-2">
+                <img src="img/ohjeet.png" id="img" alt="Kuvakaappaus pelistä"></img>
+                <a href="ronny_matikka.html" id="button" class="btn btn-outline-warning btn-lg">ALOITA PELI</a>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="row">
+        <div class="col-12">
+            <p class="text-center" id=footer>Ronny Friman - 2019<br> <i class="fab fa-facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=https://tiimi-f-samialeksiketola.c9users.io/ronny_matikkaohjeet.html" target="_blank">
+                  Share on Facebook
+                </a></i></p>
+        </div>
+    </footer>
+
+    </div>
+
+    <!-- scripts for bootstrap below -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
